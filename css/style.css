@@ -46,7 +46,7 @@ nav > ul > li{
     display: inline-block;
 }
 
-li > a{
+nav li > a{
     text-decoration: none;
     color: black;
     font-size: 0.8em;
@@ -197,6 +197,7 @@ h3{
 
 .my-row-1 > *:last-child{
     width: 100%;
+    margin-bottom: 70px;
 }
 
 .plans{
@@ -350,7 +351,12 @@ hr{
     background-color: #FFD830;
 }
 
-section.color6 h2{
+section.color6{
+    padding: 30px 0;
+    margin-top: -20px;
+}
+
+section.color6 div h2{
     padding: 35px;
     color: #651B3C;
     font-size: 2em;
@@ -361,3 +367,70 @@ section.color6 .my-col-1 > a{
     top: 50px;
     left:35px;
 }
+
+.question{
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+    position: relative;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.border-top{
+    border-top: 1px solid black;
+}
+
+.question i{
+    position: absolute;
+    right: 15px;
+    top: 40px;
+}
+
+main section:last-child{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+/* FOOTER */
+
+.footer-top{
+    background-color: black;
+    color: white;
+    padding:50px 0;
+}
+
+.footer-bottom{
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer-top h2{
+    padding: 20px 0;
+}
+
+.footer-top ul > li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer-top ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.my-col-1-5{
+    width: 18%;
+}
+
+.footer-bottom div > *{
+    padding: 0 3px;
+}
+
+.footer-bottom{
+    font-size: 0.75em;
+}
+
+
+
