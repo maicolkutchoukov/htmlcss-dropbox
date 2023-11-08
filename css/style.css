@@ -68,9 +68,14 @@ li > a{
     margin-left: 20px;
 }
 
+.button-free{
+    background-color: #FFFFFF;
+    color: black;
+}
+
 .my-col-1 a{
     position: relative;
-    top: 25px;
+    top: 35px;
 }
 
 /* 
@@ -159,6 +164,16 @@ h2{
 
 h3{
     padding: 15px 0;
+}
+
+.montly, .yearly{
+    display: inline-block;
+    font-size: 0.7em;
+    padding: 10px 0;
+}
+
+.yearly{
+    margin-left:20px;
 }
 
 .circle{
@@ -333,4 +348,16 @@ hr{
 
 .color8{
     background-color: #FFD830;
+}
+
+section.color6 h2{
+    padding: 35px;
+    color: #651B3C;
+    font-size: 2em;
+}
+
+section.color6 .my-col-1 > a{
+    position: relative;
+    top: 50px;
+    left:35px;
 }
