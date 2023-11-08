@@ -62,7 +62,12 @@ a{
     background-color: white;
     color: gray;
     border: 1px solid gray;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.my-col-1 a{
+    position: relative;
+    top: 25px;
 }
 
 /* 
@@ -103,6 +108,14 @@ a{
 
 .my-col-2{
     width: 70%;
+}
+
+.my-col-3-2{
+    width: 60%;
+}
+
+.my-col-2-2{
+    width: 40%;
 }
 
 img{
@@ -162,7 +175,6 @@ h3{
 
 .plans{
     width: calc((100% / 3) - 30px);
-    min-height: 300px;
     margin:15px 15px;
 }
 
@@ -204,13 +216,37 @@ hr{
     color: #0061FF;
 }
 
+.my-row-1 .my-row .my-col-2{
+    padding: 15px 15px;
+}
+
+.my-row-1 .my-row .my-col-2 p{
+    margin-top: 40px;
+}
+
 .feature{
     width: 32%;
     min-height: 200px;
     margin: 10px 0;
-    border: 1px dashed black;
 }
 
-.my-row .my-col-1 .padding{
-    padding: 30px 10px;
+/* .my-row .my-col-2-2 .padding{
+    padding: 30px 20px;
+} */
+
+.my-row .my-col-2-2 p{
+    padding: 30px 20px;
+    font-size: 0.7em;
+}
+
+.my-row .my-col-2-2 h3{
+    padding: 30px 20px;
+}
+
+.feature h3{
+    padding: 10px 0;
+}
+
+.feature p{
+    font-size: 0.7em;
 }
