@@ -22,6 +22,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container-full{
+    width: 100%;
+}
+
 .container {
     max-width: 60%;
     margin: 0 auto;
@@ -32,22 +36,33 @@ html {
     margin: 0 auto;
 }
 
+section{
+    margin-bottom: 20px;
+}
+
 nav > ul > li{
-    list-style: none;
+    /* list-style: none; */
     display: inline-block;
-    padding: 5px 10px;
 }
 
 a{
     text-decoration: none;
     color: black;
     font-size: 0.8em;
+    padding: 5px 20px;
 }
 
 .button{
     background-color: #0061FF;
     padding: 8px;
     color: white;
+}
+
+.button-partner{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 10px;
 }
 
 /* 
@@ -70,10 +85,16 @@ a{
     margin-bottom:30px;
 }
 
-.my-row{
-    display: flex;
+.header-bottom-container{
     position: relative;
     top:40px;
+}
+
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .my-col-1{
@@ -90,7 +111,7 @@ img{
 
 h1{
     font-size: 3.5em;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .my-col-1 i{
@@ -130,14 +151,19 @@ h3{
 
 .my-row-1{
     display: flex;
+    flex-wrap: wrap;
     margin: 0 -15px;
     font-size: 0.8em;
 }
 
-.my-col-1-3{
+.my-row-1 > *:last-child{
+    width: 100%;
+}
+
+.plans{
     width: calc((100% / 3) - 30px);
     min-height: 300px;
-    margin:0px 15px;
+    margin:15px 15px;
 }
 
 .user{
@@ -176,4 +202,15 @@ hr{
 
 .fa-check{
     color: #0061FF;
+}
+
+.feature{
+    width: 32%;
+    min-height: 200px;
+    margin: 10px 0;
+    border: 1px dashed black;
+}
+
+.my-row .my-col-1 .padding{
+    padding: 30px 10px;
 }
