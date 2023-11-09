@@ -76,6 +76,9 @@ nav li > a{
 .my-col-1 a{
     position: relative;
     top: 35px;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
 }
 
 /* 
@@ -141,8 +144,9 @@ h1{
 }
 
 .my-col-1 i{
-    position: relative;
-    top: 45px;
+    /* position: relative;
+    top: 5px; */
+    color: black;
 }
 
 .my-col-1 > p{
@@ -164,6 +168,10 @@ h2{
 
 h3{
     padding: 15px 0;
+}
+
+h4{
+    padding-bottom: 15px;
 }
 
 .montly, .yearly{
@@ -209,7 +217,11 @@ h3{
     text-align: center;
     padding: 8px 0;
     border-bottom: 1px solid grey;
-    font-size: 0.7em;
+    font-size: 0.9em;
+}
+
+.user > *{
+    padding: 0 5px;
 }
 
 .fa-ul{
@@ -223,7 +235,13 @@ h3{
 }
 
 .subscribe{
-    padding: 10px 25px;
+    padding: 10px 26px;
+}
+
+.subscribe a.button{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 .subscribe span:first-of-type{
@@ -235,7 +253,7 @@ h3{
 }
 
 hr{
-    width: 45px;
+    width: 25%;
     margin-bottom: 25px;
 }
 
