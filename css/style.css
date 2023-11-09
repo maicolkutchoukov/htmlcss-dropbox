@@ -21,6 +21,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
+    scroll-behavior: smooth;
 }
 
 .container-full{
@@ -92,13 +93,13 @@ nav li > a{
     padding: 10px;
     position: fixed;
     width: 100%;
-    background-color: #B4D0E7;
+    background-color: white;
     z-index: 2;
 }
 
-main{
+/* main{
     margin-top: 30px;
-}
+} */
 
 .header-top > nav > ul, .header-top > div{
     display: flex;
@@ -476,6 +477,3 @@ main section:last-child{
 .footer-bottom{
     font-size: 0.75em;
 }
-
-
-
