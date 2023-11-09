@@ -59,6 +59,7 @@ nav li > a{
     color: white;
     text-decoration: none;
     font-size: 0.8em;
+    text-align: center;
 }
 
 .button-partner{
@@ -75,10 +76,10 @@ nav li > a{
 
 .my-col-1 a{
     position: relative;
-    top: 35px;
+    top: 25px;
     width: 70%;
     display: inline-block;
-    text-align: center;
+
 }
 
 /* 
@@ -89,8 +90,15 @@ nav li > a{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: #B4D0E7;
+    z-index: 2;
 }
 
+main{
+    margin-top: 30px;
+}
 
 .header-top > nav > ul, .header-top > div{
     display: flex;
@@ -126,11 +134,12 @@ nav li > a{
 }
 
 .my-col-3-2{
-    width: 60%;
+    width: 55%;
 }
 
 .my-col-2-2{
-    width: 40%;
+    width: 45%;
+    padding: 10px 20px;
 }
 
 img{
@@ -269,15 +278,14 @@ hr{
     margin-top: 40px;
 }
 
-.feature{
-    width: 32%;
-    min-height: 200px;
-    margin: 10px 0;
+.business-operation h2{
+    padding-bottom: 5px;
 }
 
-/* .my-row .my-col-2-2 .padding{
-    padding: 30px 20px;
-} */
+.feature{
+    width: 32%;
+    margin-bottom: 30px;
+}
 
 .my-row .my-col-2-2 p{
     padding: 30px 20px;
@@ -296,9 +304,28 @@ hr{
     font-size: 0.7em;
 }
 
+.client{
+    margin-bottom: 70px;
+}
+
+.client h2{
+    font-size: 2.5em;
+    width: 75%;
+}
+
+.client a{
+    margin-bottom: 40px;
+    color: black;
+}
+
 .my-row-3, .square-container{
     display: flex;
     flex-wrap: wrap;
+    font-size: 0.8em;
+}
+
+.my-row-3 p{
+    padding: 20px 0;
 }
 
 .my-col-1-3{
